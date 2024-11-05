@@ -9,7 +9,7 @@ func ColculateFunction(a, b, x float64) float64 {
 	if x == 0 {
 		return 0
 	}
-	y := float64((math.Pow(a+b*x, 2.5)) / (1 + math.Log10(a+b*x)))
+	y := math.Pow(a+b*x, 2.5) / (1 + math.Log10(a+b*x))
 
 	return y
 }
