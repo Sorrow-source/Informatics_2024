@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Кулибаба Никита")
+	fmt.Println("Кулибаба Никита Андреевич")
 	lab4.CompleteLab4()
 }
